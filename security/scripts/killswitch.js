@@ -1,5 +1,5 @@
 (async function(){
-  const a="https://nexusportal.github.io/security/killswitch.json";
+  const a="https://kiraa024.github.io/nexusportal/security/killswitch.json";
   try{
     const b=await fetch(a,{cache:"no-cache"});
     if(!b.ok)throw new Error("f");
